@@ -175,5 +175,12 @@ public class DoublyLinkedList {
         return current;
     }
 
+    public void swapFirstLast(){
+        if(length == 0){return;}
+        int temp = head.value;
+        head.value = tail.value;
+        tail.value = temp;
+    }
+
 
 }

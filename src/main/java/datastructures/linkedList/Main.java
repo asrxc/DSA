@@ -75,8 +75,12 @@ public class Main {
         doublyLinkedList.insert(1,5);
         doublyLinkedList.printList();
 
-//        doublyLinkedList.remove(2);
+        doublyLinkedList.remove(2);
         doublyLinkedList.printList();
+
+        doublyLinkedList.swapFirstLast();
+        doublyLinkedList.printList();
+
 
 
 
